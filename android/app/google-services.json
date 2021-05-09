@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "365058967814",
-    "firebase_url": "https://eshop-2210d.firebaseio.com",
-    "project_id": "eshop-2210d",
-    "storage_bucket": "eshop-2210d.appspot.com"
+    "project_number": "340560129957",
+    "project_id": "eshop-23253",
+    "storage_bucket": "eshop-23253.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:365058967814:android:aaa2c8582fb6a9269a7687",
+        "mobilesdk_app_id": "1:340560129957:android:cd77237aa8a1514096024c",
         "android_client_info": {
-          "package_name": "com.wrteam.eshop"
+          "package_name": "com.absthalak.eshop"
         }
       },
       "oauth_client": [
         {
-          "client_id": "365058967814-d7obt28vb93aka20tlds8grg79v88uqa.apps.googleusercontent.com",
+          "client_id": "340560129957-j5fhofvt0k2rrbbclp8lgeuv1krul37c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyASvoiAu2X2-C-uMSKChK2UD7LDuXh5aEs"
+          "current_key": "AIzaSyDGXqa-LWdpZRpN8zRtvwMMUvo3RWTUNUQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "365058967814-d7obt28vb93aka20tlds8grg79v88uqa.apps.googleusercontent.com",
+              "client_id": "340560129957-j5fhofvt0k2rrbbclp8lgeuv1krul37c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

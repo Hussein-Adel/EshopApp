@@ -26,6 +26,14 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 apply plugin: 'com.google.gms.google-services'
 
 android {
+  signingConfigs {
+    release {
+      storeFile file('C:\\Users\\Hussein\\Desktop\\my_release_keystore.jks')
+      storePassword 'eshope'
+      keyAlias 'key0'
+      keyPassword 'eshope'
+    }
+  }
   compileSdkVersion 29
 
   lintOptions {
@@ -37,7 +45,7 @@ android {
 
   defaultConfig {
     // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-    applicationId "com.wrteam.eshop"
+    applicationId "com.absthalak.eshop"
     minSdkVersion 21
     targetSdkVersion 29
     versionCode flutterVersionCode.toInteger()
@@ -50,7 +58,7 @@ android {
     release {
       // TODO: Add your own signing config for the release build.
       // Signing with the debug keys for now, so `flutter run --release` works.
-      signingConfig signingConfigs.debug
+      signingConfig signingConfigs.release
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 
     }
@@ -70,4 +78,7 @@ dependencies {
   implementation 'com.google.android.gms:play-services-basement:17.5.0'
   implementation 'com.google.firebase:firebase-analytics:18.0.2'
   implementation 'androidx.browser:browser:1.3.0'
+  implementation platform('com.google.firebase:firebase-bom:27.1.0')
+
 }
+apply plugin: 'com.google.gms.google-services'
